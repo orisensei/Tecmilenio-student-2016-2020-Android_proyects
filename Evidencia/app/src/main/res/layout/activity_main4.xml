@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hugo.evidencia.Main4Activity">
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="330dp"
+        android:layout_height="120dp"
+        android:fontFamily="monospace"
+        android:switchTextAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:text="Paquete "
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="198dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:layout_marginBottom="32dp"
+        android:layout_above="@+id/textView4"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:elevation="0dp"
+        android:text="Siguiente"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="38dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="41dp"
+        android:text="Sopa del dia + plato fuerte + Postre  + Bebida  $88 pesos"
+        android:textSize="30sp"
+        android:layout_above="@+id/button2"
+        android:layout_centerHorizontal="true" />
+
+</android.widget.RelativeLayout>
